@@ -1,4 +1,4 @@
-ARG BASE=4.5
+ARG BASE=4.6
 FROM harbor2.vantage6.ai/infrastructure/algorithm-ohdsi-base:${BASE}
 
 ARG PKG_NAME="v6-basic-omop-queries"

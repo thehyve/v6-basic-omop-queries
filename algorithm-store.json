@@ -1,7 +1,8 @@
 {
   "name": "Basic OMOP Queries",
-  "image": "harbor2.vantage6.ai/blueberry/basic-omop-queries",
-  "vantage6_version": "4.5",
+  "image": "registry.vantage6.local/basic-omop-queries",
+  "vantage6_version": "4.10",
+  "code_url": "https://github.com/thehyve/v6-basic-omop-queries",
   "partitioning": "horizontal",
   "functions": [
     {

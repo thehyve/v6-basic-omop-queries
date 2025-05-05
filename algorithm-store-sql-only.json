@@ -1,6 +1,10 @@
 {
+  "image": "registry.vantage6.local/basic-omop-queries",
+  "name": "Basic OMOP Queries",
+  "vantage6_version": "4.10",
+  "code_url": "https://github.com/thehyve/v6-basic-omop-queries",
+  "desciption": "Basic OMOP Queries",
   "partitioning": "horizontal",
-  "image": "harbor2.vantage6.ai/blueberry/basic-omop-queries",
   "functions": [
     {
       "arguments": [
@@ -78,8 +82,5 @@
       "name": "get_table_names",
       "description": "Retrieves table names from the OMOP database"
     }
-  ],
-  "name": "Basic OMOP Queries",
-  "description": "",
-  "vantage6_version": "4.5"
+  ]
 }
