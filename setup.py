@@ -24,6 +24,7 @@ setup(
         'pandas',
         'ohdsi-database-connector',
         'ohdsi-sqlrender',
-	    'ohdsi-common'
+	    'ohdsi-common',
+        'numpy<2'
     ]
 )
